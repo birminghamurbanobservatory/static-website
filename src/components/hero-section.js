@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 
 import BackgroundImage from 'gatsby-background-image'
 
-const HeroImage = ({ className }) => (
+const HeroSection = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -24,7 +24,7 @@ const HeroImage = ({ className }) => (
           Tag="section"
           className={className}
           fluid={imageData}
-          backgroundColor={`#040e18`}
+          backgroundColor={`#138A8E`}
         >
         </BackgroundImage>
       )
@@ -33,4 +33,4 @@ const HeroImage = ({ className }) => (
 )
 
 
-export default HeroImage
+export default HeroSection

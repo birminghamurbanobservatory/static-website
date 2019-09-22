@@ -1,4 +1,44 @@
 /* This global css file will ensure all pages/components/etc have access to the tailwind classes. Just be sure to import this file in your gatsby-browser.js file */
+
+/* N.B. The line below causes "Preflight" to be injected. Preflight is a set of base styles for Tailwind projects that are designed to smooth over cross-browser inconsistencies and make it easier for you work within the constraints of your design system. It causes default margins to be removed, headings and links to be unstyled, etc, etc. More info: https://tailwindcss.com/docs/preflight/ */
 @tailwind base;
+
+/* ----------------------------------- */
+/* --- BASE STYLES --- */
+/* ----------------------------------- */
+/* Add base styles in here. More info: https://tailwindcss.com/docs/adding-base-styles/ */
+h1 {
+  @apply text-4xl;
+  @apply font-extrabold;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+
+
+
 @tailwind components;
+
+/* ----------------------------------- */
+/* -- CUSTOM COMPONENT CLASSES -- */
+/* ----------------------------------- */
+/* Add custom classes in here, e.g. for a button or form element that you plan to use a lot, but isn't worth creating a full React component for. More info: https://tailwindcss.com/docs/extracting-components */
+.header-link {
+  @apply no-underline;
+  @apply block;
+  @apply mt-4;
+  @apply text-teal-200;
+}
+
+
+
+
+
+
 @tailwind utilities;
+
+
+

@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "static-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Static website for the Birmingham Urban Observatory",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.15.19",
     "gatsby-background-image": "^0.8.12",

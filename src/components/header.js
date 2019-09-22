@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
+import logo from "../images/UO-logo-circle.svg"
 
 
 const Header = ({ siteTitle }) => {
@@ -12,8 +13,8 @@ const Header = ({ siteTitle }) => {
       <Link 
         to="/"
         className="flex items-center flex-shrink-0 text-white mr-6">
-        {/* TODO: add the Urban obs logo in here? */}
-        <span className="font-semibold text-xl tracking-tight">{siteTitle}</span>
+        <img src={logo} alt="logo" style={{height: "30px"}} className="mr-2"/>
+        <span className="font-semibold text-sm sm:text-xl tracking-tight">{siteTitle}</span>
       </Link>
       {/* Hamburger */}
       <div className="block lg:hidden">
@@ -26,19 +27,25 @@ const Header = ({ siteTitle }) => {
         <div className="text-sm lg:flex-grow">
           <Link
             to="/about/"
-            className="no-underline block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
           >
             About Us
           </Link>
           <Link
+            to="/team/"
+            className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
+          >
+            Team
+          </Link>
+          <Link
             to="/blog/"
-            className="no-underline block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
           >
             Blog
           </Link>
           <Link
             to="/contact/"
-            className="no-underline block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
           >
             Contact
           </Link>        

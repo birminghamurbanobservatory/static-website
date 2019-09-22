@@ -1,0 +1,8 @@
+.hero-container {
+  height: 700px;
+  /* The height being subtracted is the height of the header */
+  height: calc(100vh - 78px);
+  height: -o-calc(100vh - 78px); /* opera */
+  height: -webkit-calc(100vh - 78px); /* google, safari */
+  height: -moz-calc(100vh - 78px); /* firefox */ 
+}
