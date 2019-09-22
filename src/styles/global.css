@@ -1,0 +1,4 @@
+/* This global css file will ensure all pages/components/etc have access to the tailwind classes. Just be sure to import this file in your gatsby-browser.js file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
