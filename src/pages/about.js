@@ -11,6 +11,8 @@ const AboutPage = () => (
     <p>Here's everything you need to know.</p>
     <p><Link to="/">Go back to the homepage</Link></p>
     <p><Link to="/blog/">Go to the blog</Link></p>
+    
+    <h1>Meet the team</h1>
   </Layout>
 )
 

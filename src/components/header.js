@@ -25,17 +25,17 @@ const Header = ({ siteTitle }) => {
       {/* Links */}
       <div className={`${ isExpanded ? `block` : `hidden` } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
         <div className="text-sm lg:flex-grow">
+          <a 
+            href="https://data.birminghamurbanobservatory.com"
+            className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
+          >
+            Data
+          </a>
           <Link
             to="/about/"
             className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
           >
             About Us
-          </Link>
-          <Link
-            to="/team/"
-            className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
-          >
-            Team
           </Link>
           <Link
             to="/blog/"

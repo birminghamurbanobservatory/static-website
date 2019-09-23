@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import packageJson from '../../package.json';
 import UkcricLogo from '../images/ukcric-logo.png';
+import { FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
 
@@ -16,7 +17,8 @@ const Footer = () => {
             <Link
               to="/contact/"
             >
-              Contact
+              <FaEnvelope className="inline-block h-8 w-8 m-2" />
+              Get in touch
             </Link>
           </p>
         </div> 
@@ -24,7 +26,8 @@ const Footer = () => {
         <div className="w-full md:w-1/3">
           <p className="text-center">
             <a href="https://twitter.com/BhamUrbanObs">
-              Twitter
+              <FaTwitter className="inline-block h-8 w-8 m-2" />
+              Follow Us
             </a>
           </p>
         </div>
@@ -37,7 +40,7 @@ const Footer = () => {
 
       </div>
 
-      <p className="text-center">v{packageJson.version}</p>
+      <p className="text-center text-sm">v{packageJson.version}</p>
     </footer>
 
   )

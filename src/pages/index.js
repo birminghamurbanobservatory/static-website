@@ -31,7 +31,7 @@ const IndexPage = () => (
     </div>
 
     <div className="m-4">
-      <h1 className="text-center text-gray-800">Wait there's more?!</h1>
+      <h1 className="text-center text-gray-800">Wait, there's more...</h1>
       <p>We're not the only Urban Observatory. In fact there's 6 of us in total.</p>
     </div>
 
