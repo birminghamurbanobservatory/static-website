@@ -5,6 +5,10 @@ module.exports = {
     // colors: {
     //   primary: '#0A888C',
     // }
+    container: {
+      center: true,
+      padding: '2rem'
+    }
   },
   variants: {},
   plugins: []

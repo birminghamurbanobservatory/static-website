@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="w-full md:w-1/3">
           <a href="https://www.ukcric.com">
-            <img src={UkcricLogo} alt="UKCRIC Logo" className="w-1/2 sm:w-1/3 md:w-1/2 float-right"/>
+            <img src={UkcricLogo} alt="UKCRIC Logo" className="h-24 float-right"/>
           </a>
         </div>
 

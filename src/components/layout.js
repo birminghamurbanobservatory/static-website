@@ -27,9 +27,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
 
-        <main>{children}</main>
+      {/* Some of the classes here help to ensure the footer sits at the bottom of the page */}
+      <div className="min-h-screen flex flex-col">
+
+        <main className="flex-grow">{children}</main>
 
         <Footer />
 
