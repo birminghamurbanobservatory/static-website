@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
 import packageJson from '../../package.json';
-import UkcricLogo from '../images/ukcric-logo.png';
 import { FaTwitter, FaEnvelope } from 'react-icons/fa';
+import EpsrcLogo from '../components/epsrc-logo';
+import UkcricLogo from '../components/ukcric-logo';
 
 const Footer = () => {
 
@@ -33,8 +34,13 @@ const Footer = () => {
         </div>
 
         <div className="w-full md:w-1/3">
-          <a href="https://www.ukcric.com">
-            <img src={UkcricLogo} alt="UKCRIC Logo" className="h-24 float-right"/>
+
+          <a href="https://epsrc.ukri.org/" className="mx-1">
+            <EpsrcLogo />
+          </a>
+
+          <a href="https://www.ukcric.com" className="float-right mx-1">
+            <UkcricLogo />
           </a>
         </div>
 

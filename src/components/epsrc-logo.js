@@ -13,20 +13,21 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+const EpsrcImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "bham-urban-obs-hero-pic.png" }) {
+      placeholderImage: file(relativePath: { eq: "epsrc-logo-white.png" }) {
         childImageSharp {
-          fluid(maxWidth: 2000) {
-            ...GatsbyImageSharpFluid
+          fixed(height: 90) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  // Because we know the size we want we can used fixed not fluid.
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} alt="EPSRC logo" />
 }
 
-export default Image
+export default EpsrcImage
