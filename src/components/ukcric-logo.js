@@ -18,16 +18,15 @@ const UkcricLogo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "ukcric-logo.png" }) {
         childImageSharp {
-          fixed(height: 90) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  // Because we know the size we want we can used fixed not fluid.
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} alt="UKCRIC logo" />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="UKCRIC logo" />
 }
 
 export default UkcricLogo

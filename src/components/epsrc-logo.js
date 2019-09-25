@@ -18,16 +18,15 @@ const EpsrcImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "epsrc-logo-white.png" }) {
         childImageSharp {
-          fixed(height: 90) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  // Because we know the size we want we can used fixed not fluid.
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} alt="EPSRC logo" />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="EPSRC logo"/>
 }
 
 export default EpsrcImage

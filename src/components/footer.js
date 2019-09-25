@@ -35,13 +35,21 @@ const Footer = () => {
 
         <div className="w-full md:w-1/3">
 
-          <a href="https://epsrc.ukri.org/" className="mx-1">
-            <EpsrcLogo />
-          </a>
+          <div className="flex flex-wrap items-center">
 
-          <a href="https://www.ukcric.com" className="float-right mx-1">
-            <UkcricLogo />
-          </a>
+            <div className="w-1/2">
+              <a href="https://epsrc.ukri.org/" className="mx-1">
+                <EpsrcLogo />
+              </a>
+            </div>
+
+            <div className="w-1/2">
+              <a href="https://www.ukcric.com" className="mx-1">
+                <UkcricLogo />
+              </a>
+            </div>
+
+          </div>
         </div>
 
       </div>
