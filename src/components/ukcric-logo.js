@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const UkcricLogo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "ukcric-logo.png" }) {
+      ukcricLogo: file(relativePath: { eq: "ukcric-logo.png" }) {
         childImageSharp {
           fluid(maxHeight: 100) {
             ...GatsbyImageSharpFluid
@@ -26,7 +26,7 @@ const UkcricLogo = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="UKCRIC logo" />
+  return <Img fluid={data.ukcricLogo.childImageSharp.fluid} alt="UKCRIC logo" />
 }
 
 export default UkcricLogo
