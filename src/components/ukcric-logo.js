@@ -18,7 +18,7 @@ const UkcricLogo = () => {
     query {
       ukcricLogo: file(relativePath: { eq: "ukcric-logo.png" }) {
         childImageSharp {
-          fluid(maxHeight: 100) {
+          fluid(maxHeight: 500) {
             ...GatsbyImageSharpFluid
           }
         }
