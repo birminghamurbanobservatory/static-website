@@ -30,6 +30,12 @@ Run ```gatsby build``` to perform an optimized production build for your site ge
 Run ```gatsby serve``` to starts a local HTML server for testing your built site.
 
 
+## Deploying to Firebase
+
+`firebase deploy -m "1.0.1"`
+
+Message is optional.
+
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
