@@ -32,6 +32,8 @@ Run ```gatsby serve``` to starts a local HTML server for testing your built site
 
 ## Deploying to Firebase
 
+N.B. Make sure you have run `gatsby build` first.
+
 `firebase deploy -m "1.0.1"`
 
 Message is optional.
