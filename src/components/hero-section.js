@@ -4,6 +4,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 
 const HeroSection = ({ className }) => (
+  // Might be able to do this with useStaticQuery instead
   <StaticQuery
     query={graphql`
       query {

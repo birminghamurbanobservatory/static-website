@@ -2,10 +2,33 @@ import { Link } from "gatsby"
 import React from "react"
 import packageJson from '../../package.json';
 import { FaTwitter, FaEnvelope } from 'react-icons/fa';
-import EpsrcLogo from '../images/epsrc-logo-white.png';
-import UkcricLogo from '../images/ukcric-logo.png';
+import Img from "gatsby-image";
+import { useStaticQuery, graphql } from "gatsby";
+
+// This component queries data with the useStaticQuery hook.
+// See: https://www.gatsbyjs.org/docs/use-static-query/ for more info.
+// It allows us to load the images (with the help of the gatsby-image plugin) from directly within this component, rather than having to pass the image data down from pages.
 
 const Footer = () => {
+
+  const data = useStaticQuery(graphql`
+    query {
+      epsrcLogo: file(relativePath: { eq: "logos/epsrc-logo-white.png" }) {
+        childImageSharp {
+          fixed(height: 64) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      ukcricLogo: file(relativePath: { eq: "logos/ukcric-logo.png" }) {
+        childImageSharp {
+          fixed(height: 64) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
 
   return (
 
@@ -38,27 +61,15 @@ const Footer = () => {
           <div className="flex flex-wrap justify-around">
 
             <a href="https://epsrc.ukri.org/">
-              <img src={EpsrcLogo} alt="" className="h-16"/>
+              <Img fixed={data.epsrcLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
             </a>
-            
+
             <a href="https://www.ukcric.com">
-              <img src={UkcricLogo} alt="" className="h-16"/>
+              <Img fixed={data.ukcricLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
             </a>
-
-
-            {/* <div className="w-1/2">
-              
-                <EpsrcLogo />
-              </a>
-            </div>
-
-            <div className="w-1/2">
-              <a href="https://www.ukcric.com" className="mx-1">
-                <UkcricLogo />
-              </a>
-            </div> */}
 
           </div>
+
         </div>
 
       </div>
@@ -72,4 +83,5 @@ const Footer = () => {
 
 
 export default Footer
+
 
