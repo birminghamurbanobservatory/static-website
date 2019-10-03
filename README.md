@@ -22,7 +22,7 @@ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This
 
 ## Build
 
-Run ```gatsby build``` to perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
+Run ```gatsby build``` to perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles. The built static files are put in the _public_ directory.
 
 
 ## Serve production code

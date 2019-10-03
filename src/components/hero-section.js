@@ -9,7 +9,7 @@ const HeroSection = ({ className }) => (
       query {
         desktop: file(relativePath: { eq: "bham-urban-obs-hero-pic.png" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 1920) {
+            fluid(quality: 90, maxWidth: 3000) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
