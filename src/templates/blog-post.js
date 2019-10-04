@@ -1,12 +1,16 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
+  pageContext
 }) {
+
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
+  const {next, prev} = pageContext;
+
   return (
     <Layout>
       <div className="blog-post-container container my-2">
@@ -18,6 +22,23 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
+
+        <div className="text-center my-2">
+          {/* Add prev link if prev is truthy */}
+          { prev &&
+            <Link to={prev.frontmatter.path} className="text-link mx-4">
+              Newer
+            </Link>
+          }       
+
+          {/* Add next link if next is truthy */}
+          { next &&
+            <Link to={next.frontmatter.path} className="text-link mx-4">
+              Older
+            </Link>
+          }
+        </div>
+
       </div>
     </Layout>
   )
