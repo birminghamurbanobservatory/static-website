@@ -1,16 +1,49 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import { Link, graphql } from "gatsby"
+import BlogPostLink from "../components/blog-post-link"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogPage = () => (
-  <Layout>
-    <SEO title="Blog" />
-    <h1>Welcome to the blog</h1>
-    <p>Blog, blog blog</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+const BlogPage = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },  
+}) => {
 
+  const Posts = edges
+    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .map(edge => <BlogPostLink key={edge.node.id} post={edge.node} />)
+
+  return (
+    <Layout>
+      <SEO title="Blog" />
+      <div className="container my-2">
+        <h1 className="text-primary text-center">Our Blog Posts</h1>
+        <div>{Posts}</div>
+        <p>Go back to the <Link to="/" className="text-link">homepage</Link></p>
+      </div>
+      
+    </Layout>
+  )
+
+}
 export default BlogPage
+
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
+            title
+          }
+        }
+      }
+    }
+  }
+`

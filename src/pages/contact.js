@@ -8,7 +8,7 @@ const ContactPage = () => (
 
     <div className="container my-3">
 
-      <h1 className="text-gray-800 mb-6">Contact Us</h1>
+      <h1 className="text-primary mb-6">Contact Us</h1>
 
       <form className="w-full max-w-lg mb-4" id="contact-us-form" name="contact-us-form" acceptCharset="utf-8" action="https://formspree.io/birminghamurbanobservatory@gmail.com" method="post">
 

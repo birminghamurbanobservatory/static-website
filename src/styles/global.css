@@ -33,8 +33,39 @@ h3 {
   @apply text-teal-200;
 }
 
+.text-link {
+  @apply text-blue-600;
+}
+
+.text-link:hover {
+  @apply underline;
+}
+
+.hero-container {
+  height: 700px; /* fallback default */
+  /* The height being subtracted is the height of the header */
+  height: calc(100vh - 78px);
+  height: -o-calc(100vh - 78px); /* opera */
+  height: -webkit-calc(100vh - 78px); /* google, safari */
+  height: -moz-calc(100vh - 78px); /* firefox */ 
+}
 
 
+/* ----------------------------------- */
+/* Markdown Blog Posts */
+/* ----------------------------------- */
+/* I.e. styles we'll apply to the html that's derived from the markdown */
+.blog-post-content a {
+  @apply text-blue-600;
+}
+
+.blog-post-content a:hover {
+  @apply underline;
+}
+
+.blog-post-content h1, h2, h3, h4, h5, h6 {
+  @apply text-primary
+}
 
 
 

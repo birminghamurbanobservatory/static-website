@@ -43,12 +43,12 @@ const Header = () => {
             About Us
           </Link>
 
-          {/* <Link
+          <Link
             to="/blog/"
             className="header-link lg:inline-block lg:mt-0 hover:text-white mr-4"
           >
             Blog
-          </Link> */}
+          </Link>
 
           <Link
             to="/contact/"

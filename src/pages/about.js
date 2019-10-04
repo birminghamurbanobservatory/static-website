@@ -13,7 +13,7 @@ const AboutPage = (props) => {
       <div className="container">
 
         <section className="mt-4">
-          <h1 className="text-center text-gray-800">History</h1>
+          <h1 className="text-center text-primary">History</h1>
           <p>When the first Urban Observatory(s) were established.</p>
           <p>When Birmingham's started.</p>
           <p>Who's funding it.</p>
@@ -22,7 +22,7 @@ const AboutPage = (props) => {
 
         <section className="mt-4">
 
-          <h1 className="text-center text-gray-800">Meet the team</h1>
+          <h1 className="text-center text-primary">Meet the team</h1>
 
           <TeamMember 
             name="Lee Chapman" 
