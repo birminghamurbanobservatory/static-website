@@ -19,7 +19,7 @@ const BlogPage = ({
       <SEO title="Blog" />
       <div className="container my-2">
         <h1 className="text-primary text-center">Our Blog Posts</h1>
-        <div>{Posts}</div>
+        <div className="flex flex-wrap">{Posts}</ div>
         <p>Go back to the <Link to="/" className="text-link">homepage</Link></p>
       </div>
       
@@ -41,6 +41,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }  
           }
         }
       }

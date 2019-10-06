@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
+import Img from "gatsby-image"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -17,6 +18,9 @@ export default function Template({
         <div className="blog-post">
           <h1 className="text-primary text-center">{frontmatter.title}</h1>
           <p className="text-center">(Posted: {frontmatter.date})</p>
+          { frontmatter.featuredImage &&
+            <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+          }
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
@@ -29,7 +33,11 @@ export default function Template({
             <Link to={prev.frontmatter.path} className="text-link mx-4">
               Newer
             </Link>
-          }       
+          }
+
+          <Link to="/blog" className="text-link mx-4">
+            All
+          </Link>
 
           {/* Add next link if next is truthy */}
           { next &&
@@ -52,6 +60,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }       
       }
     }
   }
