@@ -24,7 +24,7 @@ const IndexPage = () => (
         </a>    
       </div> */}
 
-      <section className="my-6">
+      <section className="my-8">
         <h1 className="text-center text-primary">What is the Birmingham Urban Observatory?</h1>
         <div className="text-justify">
           <p className="my-2">An <i>Urban Observatory</i> is a system of research platforms that observe urban phenomena. Such phenomena include heat waves, flooding, traffic flow, air pollution, biodiversity and much, much more.</p>
@@ -33,7 +33,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="my-6">
+      <section className="my-8">
         <h1 className="text-center text-primary">What we're up to</h1>
         <p className="my-2">We're busy deploying sensors across the city to collect vital data. Here's a selection of the technology being deployed:</p>
         <ul className="list-disc flex flex-wrap">
@@ -51,7 +51,7 @@ const IndexPage = () => (
         <p></p>
       </section>    
 
-      <section className="my-6">
+      <section className="my-8">
         <h1 className="text-center text-primary">What's in it for you</h1>
         <p className="my-2">Much of the data collected will be made publically available via an interactive website. Keep an eye on our <Link to="/blog/" className="text-link">Blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for updates on when this will go live! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
         <p className="my-2">
