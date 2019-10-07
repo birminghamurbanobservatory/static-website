@@ -41,7 +41,9 @@ N.B. Make sure you have run `gatsby build` first.
 
 `firebase deploy -m "1.0.1"`
 
-Message is optional.
+The message (-m) is optional.
+
+Firebase [guide](https://firebase.google.com/docs/hosting/custom-domain) on how to use your own domain.(https://firebase.google.com/docs/hosting/custom-domain)
 
 ## 🧐 What's inside?
 
