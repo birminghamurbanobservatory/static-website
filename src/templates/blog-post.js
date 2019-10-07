@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
+import { FaArrowCircleLeft, FaArrowCircleRight, FaList } from 'react-icons/fa';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -17,9 +18,9 @@ export default function Template({
       <div className="blog-post-container container my-2">
         <div className="blog-post">
           <h1 className="text-primary text-center">{frontmatter.title}</h1>
-          <p className="text-center">(Posted: {frontmatter.date})</p>
+          <p className="text-center mb-4 italic">(Posted: {frontmatter.date})</p>
           { frontmatter.featuredImage &&
-            <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+            <Img fluid={frontmatter.featuredImage.childImageSharp.fluid}/>
           }
           <div
             className="blog-post-content"
@@ -27,24 +28,32 @@ export default function Template({
           />
         </div>
 
-        <div className="text-center my-2">
-          {/* Add prev link if prev is truthy */}
-          { prev &&
-            <Link to={prev.frontmatter.path} className="text-link mx-4">
-              Newer
-            </Link>
-          }
+        <div className="flex text-center text-blue-600">
 
-          <Link to="/blog" className="text-link mx-4">
-            All
-          </Link>
+          <div className="w-1/3">
+            {/* Add prev link if prev is truthy */}
+            { prev &&
+              <Link to={prev.frontmatter.path} className="mx-4 hover:text-blue-700">
+                <FaArrowCircleLeft className="inline-block h-8 w-8 m-2"/>
+              </Link>
+            }
+          </div>
 
-          {/* Add next link if next is truthy */}
-          { next &&
-            <Link to={next.frontmatter.path} className="text-link mx-4">
-              Older
+          <div className="w-1/3">
+            <Link to="/blog" className="mx-4 hover:text-blue-700">
+              <FaList className="inline-block h-8 w-8 m-2"/>
             </Link>
-          }
+          </div>
+
+          <div className="w-1/3">
+            {/* Add next link if next is truthy */}
+            { next &&
+              <Link to={next.frontmatter.path} className="mx-4 hover:text-blue-700">
+                <FaArrowCircleRight className="inline-block h-8 w-8 m-2"/>
+              </Link>
+            }
+          </div>
+
         </div>
 
       </div>

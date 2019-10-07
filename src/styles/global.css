@@ -67,6 +67,11 @@ h3 {
   @apply text-primary
 }
 
+.blog-post-content p {
+  @apply my-2
+}
+
+
 
 
 @tailwind utilities;

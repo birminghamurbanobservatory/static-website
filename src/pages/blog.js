@@ -18,9 +18,9 @@ const BlogPage = ({
     <Layout>
       <SEO title="Blog" />
       <div className="container my-2">
-        <h1 className="text-primary text-center">Our Blog Posts</h1>
+        <h1 className="text-primary text-center my-3">Our Blog Posts</h1>
         <div className="flex flex-wrap">{Posts}</ div>
-        <p>Go back to the <Link to="/" className="text-link">homepage</Link></p>
+        <p className="my-2 text-center">Head back to the <Link to="/" className="text-link">homepage</Link></p>
       </div>
       
     </Layout>

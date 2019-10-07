@@ -11,6 +11,11 @@
 </p>
 
 
+## TODO
+
+- Add Google Analytics.
+
+
 ## Develop
 
 Run ```gatsby develop``` in the root of project to start a hot-reloading development environment.
