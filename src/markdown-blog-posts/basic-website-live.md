@@ -1,6 +1,6 @@
 ---
 path: "/blog/an-update"
-date: "2019-10-15"
+date: "2019-10-08"
 title: "Website goes live"
 featuredImage: "../images/code-blurred.jpg"
 ---
