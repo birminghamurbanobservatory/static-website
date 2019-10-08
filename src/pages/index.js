@@ -26,17 +26,17 @@ const IndexPage = () => (
 
       <section className="my-8">
         <h1 className="text-center text-primary">What is the Birmingham Urban Observatory?</h1>
-        <div className="text-justify">
-          <p className="my-2">An <i>Urban Observatory</i> is a system of research platforms that observe urban phenomena. Such phenomena include heat waves, flooding, traffic flow, air pollution, biodiversity and much, much more.</p>
-          <p className="my-2">Here in Birmingham, the UK's second largest city, our focus is on critical infrastructure. A major component of which is the region's numerous transport networks. We're interested in how weather and climate impact this critical infrastructure, and how in turn it influences the health of the city, e.g. it's air quality. We'll provide insights into the performance of green, grey and buried infrastructure across the city. Answering questions such as: how do local disruptions such as streetworks influence urban biodiversity. Our hope is that these monitoring systems will inform city planners about how to "<i>green our cities</i>" to best effect for both citizens and the infrastructure systems that support their daily lives.</p>
-          <p className="my-2">For more information, check out our <Link to="/about/" className="text-link">About Us</Link> page.</p>
+        <div>
+          <p className="para">An <i>Urban Observatory</i> is a system of research platforms that observe urban phenomena. Such phenomena include heat waves, flooding, traffic flow, air pollution, biodiversity and much, much more.</p>
+          <p className="para">Here in Birmingham, the UK's second largest city, our focus is on critical infrastructure. A major component of which is the region's numerous transport networks. We're interested in how weather and climate impact this critical infrastructure, and how in turn it influences the health of the city, e.g. it's air quality. We'll provide insights into the performance of green, grey and buried infrastructure across the city. Answering questions such as: how do local disruptions such as streetworks influence urban biodiversity. Our hope is that these monitoring systems will inform city planners about how to "<i>green our cities</i>" to best effect for both citizens and the infrastructure systems that support their daily lives.</p>
+          <p className="para">For more information, check out our <Link to="/about/" className="text-link">About Us</Link> page.</p>
         </div>
       </section>
 
       <section className="my-8">
         <h1 className="text-center text-primary">What we're up to</h1>
-        <p className="my-2">We're busy deploying sensors across the city to collect vital data. Here's a selection of the technology being deployed:</p>
-        <ul className="list-disc flex flex-wrap">
+        <p className="para">We're busy deploying sensors across the city to collect vital data. Here's a selection of the technology being deployed:</p>
+        <ul className="list-disc flex flex-wrap my-4">
           <li className="w-full lg:w-1/2">100 low-cost weather stations in schools and homes.</li>
           <li className="w-full lg:w-1/2">25 high-quality reference weather stations.</li>
           <li className="w-full lg:w-1/2">A distributed acoustic sensing system providing a variety of underground measurements.</li>
@@ -53,8 +53,8 @@ const IndexPage = () => (
 
       <section className="my-8">
         <h1 className="text-center text-primary">What's in it for you</h1>
-        <p className="my-2">Much of the data collected will be made publically available via an interactive website. Keep an eye on our <Link to="/blog/" className="text-link">Blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for updates on when this will go live! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
-        <p className="my-2">
+        <p className="para">Much of the data collected will be made publically available via an interactive website. Keep an eye on our <Link to="/blog/" className="text-link">Blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for updates on when this will go live! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
+        <p className="para">
           Got a burning question about Birmingham that you think our sensors can help answer then please <Link to="/contact/" className="text-link">Get in touch</Link> and we'll see if we can help.
         </p>
       </section>  

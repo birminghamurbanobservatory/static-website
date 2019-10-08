@@ -51,6 +51,16 @@ h3 {
   height: -moz-calc(100vh - 78px); /* firefox */ 
 }
 
+.para {
+  @apply my-3;
+  @apply text-justify;
+}
+
+@screen md {
+  .para {
+    @apply text-center;
+  }
+}
 
 /* ----------------------------------- */
 /* Markdown Blog Posts */
@@ -69,8 +79,21 @@ h3 {
 }
 
 .blog-post-content p {
-  @apply my-2
+  @apply my-2;
+  @apply text-justify;
 }
+
+/* Style images in the main markdown blog content (i.e. not the featuredImage) */
+.blog-post-content .gatsby-resp-image-wrapper {
+  @apply w-full;
+  @apply my-4;
+}
+@screen md {
+  .blog-post-content .gatsby-resp-image-wrapper {
+    @apply w-3/4;
+  }
+}
+
 
 
 

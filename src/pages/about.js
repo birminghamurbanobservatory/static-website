@@ -14,47 +14,47 @@ const AboutPage = (props) => {
 
         <section className="mt-6">
           <h1 className="text-center text-primary">Why we need to observe urban areas</h1>
-          <p className="text-justify my-2">
+          <p className="para">
             More than half of the world’s population now lives in urban areas and UN projections suggest that this proportion will rise to 68% by 2050 worldwide. In Europe, this proportion has already been succeeded with 74% of our citizen living in cities.
           </p>  
-          <p className="text-justify my-2">
+          <p className="para">
             Cities generate the vast majority of the country's wealth and investment in its infrastructure amounts to billions each year. Cities are complex entities, with dynamic and interacting infrastructure, social and environmental aspects. For cities to be attractive to live in, they need to provide infrastructure for housing, transport, energy, leisure and health. There are many interdependencies between those sectors. Yet, research typically focuses on single sectors, and limited timeframes and therefore is unable to understand the interwoven processes and systems.
           </p>
         </section>
 
         <section className="mt-6">
           <h1 className="text-center text-primary">Understanding Cities</h1>
-          <p className="text-justify my-2">Urban Observatories enable the gathering of robust data to better understand cities and their relationship with decision making across a range of scales and sectors in order to:</p>
+          <p className="para">Urban Observatories enable the gathering of robust data to better understand cities and their relationship with decision making across a range of scales and sectors in order to:</p>
 
           <ul className="list-disc flex flex-wrap">
-            <li className="w-full lg:w-1/2 p-2">Develop and validate theories and models</li>
-            <li className="w-full lg:w-1/2 p-2">Identify and address challenges</li>
-            <li className="w-full lg:w-1/2 p-2">Accelerate innovation and change</li>
-            <li className="w-full lg:w-1/2 p-2">Support & inform robust decision making</li>
-            <li className="w-full lg:w-1/2 p-2">Provide go-to places to support other cities to establish observatories</li>
-            <li className="w-full lg:w-1/2 p-2">Share learning and best practice </li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Develop and validate theories and models</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Identify and address challenges</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Accelerate innovation and change</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Support & inform robust decision making</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Provide go-to places to support other cities to establish observatories</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Share learning and best practice </li>
           </ul>
 
           <p className="my-2">By:</p>
 
           <ul className="list-disc flex flex-wrap">
-            <li className="w-full lg:w-1/2 p-2">Designing and deploying urban-wide sensing networks and related infrastructure</li>
-            <li className="w-full lg:w-1/2 p-2">Curating data </li>
-            <li className="w-full lg:w-1/2 p-2">Providing analytics to turn data into information</li>
-            <li className="w-full lg:w-1/2 p-2">Creating a co-learning and co-production environment </li>
-            <li className="w-full lg:w-1/2 p-2">Developing procedural and governance structures to manage and sustain urban monitoring systems</li>
-            <li className="w-full lg:w-1/2 p-2">Stimulating and supporting wide participation by accelerating smart city planning and long-term strategic, evidence-driven planning and operations (innovation and change)</li>
-            <li className="w-full lg:w-1/2 p-2">Conducting experiments at different scales</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Designing and deploying urban-wide sensing networks and related infrastructure</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Curating data </li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Providing analytics to turn data into information</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Creating a co-learning and co-production environment </li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Developing procedural and governance structures to manage and sustain urban monitoring systems</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Stimulating and supporting wide participation by accelerating smart city planning and long-term strategic, evidence-driven planning and operations (innovation and change)</li>
+            <li className="w-full lg:w-1/2 px-4 py-1">Conducting experiments at different scales</li>
           </ul>
         </section>
 
         <section className="mt-6">
           <h1 className="text-center text-primary">The Urban Observatories</h1>
-          <p className="text-justify my-2">
+          <p className="para">
             The mission of the Urban Observatories is to understand how to monitor cities at multiple scales both temporal and spatial and across multiple sectors.  The approach will enable discovery-led science through large scale deployments of scientific instruments in the city to answer questions about technology, data storage, data standards and communications as well as more far reaching questions about the scale of monitoring required to carry out experiments in the city (density, accuracy, repeatability). Importantly, it will also enable experimentation: engineering system interventions (enacting a policy, putting in place an operational practice or making a physical change, for example) can be made and the resulting impact observed and measured.
           </p>
 
-          <p className="text-justify my-2">The 6 Urban Observatories are as follows:</p>
+          <p className="para">The 6 Urban Observatories are as follows:</p>
           <ul className="flex flex-wrap text-center text-lg">
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="http://newcastle.urbanobservatory.ac.uk/" className="text-link">Newcastle</a></li>
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://urbanflows.ac.uk" className="text-link">Sheffield</a></li>
@@ -64,7 +64,7 @@ const AboutPage = (props) => {
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.cranfield.ac.uk" className="text-link">Cranfield</a></li>
           </ul>
 
-          <p className="text-justify my-2">Newcastle, Sheffield and Bristol form the first wave of Observatories and are passing on their experiences to the second wave of Observatories, namely Birmingham, Manchester and Cranfield. This knowledge exchange forms part of the <a href="http://www.urbanobservatory.ac.uk/corona" className="text-link">CORONA project</a>. The CORONA project is funded by the <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R013411/1" className="text-link">Engineering and Physical Sciences Research Council</a>. The network of observatories forms one of the three strands of <a href="UKCRIC" className="text-link">UKCRIC</a>.</p> 
+          <p className="para">Newcastle, Sheffield and Bristol form the first wave of Observatories and are passing on their experiences to the second wave of Observatories, namely Birmingham, Manchester and Cranfield. This knowledge exchange forms part of the <a href="http://www.urbanobservatory.ac.uk/corona" className="text-link">CORONA project</a>. The CORONA project is funded by the <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R013411/1" className="text-link">Engineering and Physical Sciences Research Council</a>. The network of observatories forms one of the three strands of <a href="UKCRIC" className="text-link">UKCRIC</a>.</p> 
         </section>
               
 

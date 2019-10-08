@@ -17,13 +17,14 @@ export default function Template({
     <Layout>
       <div className="blog-post-container container my-2">
         <div className="blog-post">
-          <h1 className="text-primary text-center">{frontmatter.title}</h1>
-          <p className="text-center mb-4 italic">(Posted: {frontmatter.date})</p>
+          <h1 className="text-primary text-center mt-4">{frontmatter.title}</h1>
+          <p className="text-center mb-5 italic">(Posted: {frontmatter.date})</p>
           { frontmatter.featuredImage &&
-            <Img fluid={frontmatter.featuredImage.childImageSharp.fluid}/>
+            <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} className="w-full md:w-3/4 mx-auto my-3" />
           }
           <div
             className="blog-post-content"
+            // The Markdown content (now in html) is injected here
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
