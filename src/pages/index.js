@@ -53,9 +53,9 @@ const IndexPage = () => (
 
       <section className="my-8">
         <h1 className="text-center text-primary">What's in it for you</h1>
-        <p className="para">Much of the data collected will be made publically available via an interactive website. Keep an eye on our <Link to="/blog/" className="text-link">Blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for updates on when this will go live! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
+        <p className="para">Much of the data collected will be made publically available via an interactive website. Keep an eye on our <Link to="/blog/" className="text-link">blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for updates on when this will go live! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
         <p className="para">
-          Got a burning question about Birmingham that you think our sensors can help answer then please <Link to="/contact/" className="text-link">Get in touch</Link> and we'll see if we can help.
+          Got a burning question about Birmingham that you think our sensors can help answer then please <Link to="/contact/" className="text-link">get in touch</Link> and we'll see if we can help.
         </p>
       </section>  
 
