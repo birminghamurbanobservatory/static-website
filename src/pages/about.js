@@ -58,9 +58,9 @@ const AboutPage = (props) => {
           <ul className="flex flex-wrap text-center text-lg">
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="http://newcastle.urbanobservatory.ac.uk/" className="text-link">Newcastle</a></li>
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://urbanflows.ac.uk" className="text-link">Sheffield</a></li>
-            <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.bristolisopen.com" className="text-link">Bristol</a></li>
+            <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.bristol.ac.uk/engineering/research/ukcricbristol/collaboratory" className="text-link">Bristol</a></li>
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://birminghamurbanobservatory.com" className="text-link">Birmingham</a></li>
-            <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.manchester-i.com" className="text-link">Manchester</a></li>
+            <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.urbanobservatory.manchester.ac.uk" className="text-link">Manchester</a></li>
             <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.cranfield.ac.uk" className="text-link">Cranfield</a></li>
           </ul>
 
