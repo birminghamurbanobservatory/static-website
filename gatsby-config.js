@@ -48,8 +48,14 @@ module.exports = {
         icon: `src/images/logos/UO-logo-circle.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-postcss`
-    // this (optional) plugin below enables Progressive Web App + Offline functionality
+    `gatsby-plugin-postcss`,
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-149397126-1'
+      }
+    }
+    // the following (optional) plugin below enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
