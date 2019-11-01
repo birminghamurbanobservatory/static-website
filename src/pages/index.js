@@ -44,6 +44,7 @@ const IndexPage = () => (
           <li className="w-full lg:w-1/2">10 air quality sensors.</li>
           <li className="w-full lg:w-1/2">5 rail moisture sensors.</li>
           <li className="w-full lg:w-1/2">10 road temperature sensors.</li>
+          <li className="w-full lg:w-1/2">A lightning detector.</li>
           <li className="w-full lg:w-1/2">Traffic counters.</li>
           <li className="w-full lg:w-1/2">Lux meters.</li>
           <li className="w-full lg:w-1/2">Automatic PIT tag readers.</li>
