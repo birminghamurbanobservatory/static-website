@@ -94,6 +94,17 @@ h3 {
   }
 }
 
+/* Tables in blog posts */
+.blog-post-content table {
+  @apply my-4;
+  /* Adds a horizontal scroll when content gets squeezed too much. */
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+}
+
 
 
 
