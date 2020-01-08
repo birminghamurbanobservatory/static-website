@@ -27,6 +27,8 @@ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This
 
 ## Build
 
+If you've made any changes then commit them and run `npm version patch/minor/major` so that a new version number is shown in the footer of the build website. 
+
 Run ```gatsby build``` to perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles. The built static files are put in the _public_ directory.
 
 
