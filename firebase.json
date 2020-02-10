@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "site": "urban-observatory",
     "ignore": [
       "firebase.json",
       "**/.*",
