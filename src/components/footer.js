@@ -13,6 +13,13 @@ const Footer = () => {
 
   const data = useStaticQuery(graphql`
     query {
+      uobLogo: file(relativePath: { eq: "logos/uob-logo.png" }) {
+        childImageSharp {
+          fixed(height: 64) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
       epsrcLogo: file(relativePath: { eq: "logos/epsrc-logo-white.png" }) {
         childImageSharp {
           fixed(height: 64) {
@@ -34,43 +41,35 @@ const Footer = () => {
 
     <footer className="bg-teal-900 text-white">
 
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-center justify-around">
 
-        <div className="w-full sm:w-1/2 md:w-1/3">
-          <p className="text-center m-2">
-            <Link
-              to="/contact/"
-            >
-              <FaEnvelope className="inline-block h-8 w-8 m-2" />
-              Get in touch
-            </Link>
-          </p>
-        </div> 
+        <p className="text-center m-2">
+          <Link
+            to="/contact/"
+          >
+            <FaEnvelope className="inline-block h-8 w-8 m-2" />
+            Get in touch
+          </Link>
+        </p>
+        
+        <p className="text-center m-2">
+          <a href="https://twitter.com/BhamUrbanObs">
+            <FaTwitter className="inline-block h-8 w-8 m-2" />
+            Follow Us
+          </a>
+        </p>
+        
+        <a href="https://www.birmingham.ac.uk" className="m-2">
+          <Img fixed={data.uobLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
+        </a>
 
-        <div className="w-full sm:w-1/2 md:w-1/3">
-          <p className="text-center m-2">
-            <a href="https://twitter.com/BhamUrbanObs">
-              <FaTwitter className="inline-block h-8 w-8 m-2" />
-              Follow Us
-            </a>
-          </p>
-        </div>
+        <a href="https://epsrc.ukri.org/" className="m-2">
+          <Img fixed={data.epsrcLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
+        </a>
 
-        <div className="w-full md:w-1/3">
-
-          <div className="flex flex-wrap justify-around">
-
-            <a href="https://epsrc.ukri.org/">
-              <Img fixed={data.epsrcLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
-            </a>
-
-            <a href="https://www.ukcric.com">
-              <Img fixed={data.ukcricLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
-            </a>
-
-          </div>
-
-        </div>
+        <a href="https://www.ukcric.com" className="m-2">
+          <Img fixed={data.ukcricLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
+        </a>
 
       </div>
 
