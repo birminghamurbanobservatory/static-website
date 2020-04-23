@@ -11,10 +11,6 @@
 </p>
 
 
-## TODO
-
-- Add Google Analytics.
-
 
 ## Develop
 
