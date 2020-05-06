@@ -16,4 +16,4 @@ We hope to keep maintaining and improving the site at Elms Cottage so we can con
 
 The site also serves as a reference for testing other weather stations such as the [Netatmo](https://www.netatmo.com/en-gb/weather) anemometer shown below.
 
-![Netatmo on Test](../images/met-site/testatmo.jpg)
+![Netatmo anemometer being tested](../images/met-site/testatmo.jpg)
