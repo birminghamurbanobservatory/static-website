@@ -15,6 +15,21 @@ Looking at our data from the Elms cottage meteorological site located at the Uni
 ![Surface Pressure](../images/april-blog/surface-pressure.PNG)
 
 
+However, looking at the radiation levels received, even these low pressure systems towards the end of the month did not affect Birmingham too much with plenty of sunshine still received. The daily rise and fall in values is due to the sun rising and setting with no radiation received during the night time hours.
 
-try again
-hhjj
+
+![Radiation](../images/april-blog/radiation.PNG)
+
+
+The 1st, 18th and 28th of the month recorded lower radiation levels due to the passing over of warm fronts which are often associated with cloudier conditions through the lifting of warm, moist air. 
+
+
+![Surface Pressure 01/04](../images/april-blog/sp-01-04.PNG)
+
+![Surface Pressure 18/04](../images/april-blog/sp-18-04.PNG)
+
+![Surface Pressure 28/04](../images/april-blog/sp-28-04.PNG)
+
+
+
+In total for the month of April our Elms cottage site on the UoB campus received 8,118,553 W/m² of radiation. 
