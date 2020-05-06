@@ -2,6 +2,7 @@
 path: "/blog/april-weather-2020"
 date: "2020-05-06"
 title: "An overview of April's weather"
+featuredImage: "../images/april-blog/April.jpg"
 ---
 
 April has now been announced as the UK’s sunniest April on record by the Met Office recording approximately 172% of April sunshine compared to the long term average (1981-2010). It was also reported to be an extremely dry month with most areas of the UK reporting below average rainfall for the time of year. 
