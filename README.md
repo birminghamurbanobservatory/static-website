@@ -25,19 +25,19 @@ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This
 
 If you've made any changes then commit them and run `npm version patch/minor/major` so that a new version number is shown in the footer of the build website. 
 
-Run ```gatsby build``` to perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles. The built static files are put in the _public_ directory.
+Run `gatsby build` or `npm run build` to perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles. The built static files are put in the _public_ directory.
 
 
 ## Serve production code
 
-Run ```gatsby serve``` to starts a local HTML server for testing your built site.
+Run `gatsby serve` to starts a local HTML server for testing your built site.
 
 
 ## Deploying to Firebase
 
 N.B. Make sure you have run `gatsby build` first.
 
-`firebase deploy -m "1.0.1"`
+`firebase deploy -m "1.0.1"` or `npm run deploy`
 
 The message (-m) is optional.
 
