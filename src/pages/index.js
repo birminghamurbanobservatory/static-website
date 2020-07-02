@@ -19,14 +19,6 @@ const IndexPage = () => (
 
     <div className="container">
 
-      {/* <div className="text-center">
-        <a 
-          href="https://data.birminghamurbanobservatory.com"
-          className="bg-transparent hover:bg-teal-500 text-teal-600 font-semibold hover:text-white py-2 px-4 border border-teal-500 hover:border-transparent rounded-full inline-block my-10 text-3xl">
-          Show me the data
-        </a>    
-      </div> */}
-
       <section className="my-8">
         <h1 className="text-center text-primary">What is the Birmingham Urban Observatory?</h1>
         <div>
