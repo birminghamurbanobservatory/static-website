@@ -3,6 +3,16 @@
   "private": true,
   "description": "Static website for the Birmingham Urban Observatory",
   "version": "1.10.1",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "deploy": "firebase deploy -m $npm_package_version",
+    "build:deploy": "npm run build && npm run deploy"
+  },
   "dependencies": {
     "gatsby": "^2.15.19",
     "gatsby-background-image": "^0.8.12",
@@ -31,15 +41,6 @@
     "gatsby"
   ],
   "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "deploy": "firebase deploy -m $npm_package_version"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
