@@ -8,10 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div
-      className="hero-container"
-    >
+    <div className="hero-container">
       <HeroSection className="h-full" />
+      <a 
+        href="https://data.birminghamurbanobservatory.com"
+        className="hero-button bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-5 text-4xl rounded-full border border-white">
+        See our data
+      </a>
     </div>
 
     <div className="container">
@@ -20,7 +23,7 @@ const IndexPage = () => (
         <a 
           href="https://data.birminghamurbanobservatory.com"
           className="bg-transparent hover:bg-teal-500 text-teal-600 font-semibold hover:text-white py-2 px-4 border border-teal-500 hover:border-transparent rounded-full inline-block my-10 text-3xl">
-          View our data
+          Show me the data
         </a>    
       </div> */}
 
@@ -41,7 +44,7 @@ const IndexPage = () => (
           <li className="w-full lg:w-1/2">25 high-quality reference weather stations.</li>
           <li className="w-full lg:w-1/2">A distributed acoustic sensing system providing a variety of underground measurements.</li>
           <li className="w-full lg:w-1/2">A high-resolution rainfall radar system.</li>
-          <li className="w-full lg:w-1/2">10 air quality sensors.</li>
+          <li className="w-full lg:w-1/2">Over 20 air quality sensors.</li>
           <li className="w-full lg:w-1/2">5 rail moisture sensors.</li>
           <li className="w-full lg:w-1/2">10 road temperature sensors.</li>
           <li className="w-full lg:w-1/2">A lightning detector.</li>

@@ -20,8 +20,8 @@ h3 {
 }
 
 
-
 @tailwind components;
+
 
 /* ----------------------------------- */
 /* -- CUSTOM COMPONENT CLASSES -- */
@@ -30,8 +30,14 @@ h3 {
 .header-link {
   @apply no-underline;
   @apply block;
-  @apply mt-4;
-  @apply text-teal-200;
+  @apply mt-1;
+  @apply mr-3;
+  @apply py-2;
+  @apply px-3;
+  @apply rounded;
+  @apply text-white;
+  @apply font-medium; /* weight */
+  @apply text-sm; /* size */
 }
 
 .text-link {
@@ -49,6 +55,17 @@ h3 {
   height: -o-calc(100vh - 78px); /* opera */
   height: -webkit-calc(100vh - 78px); /* google, safari */
   height: -moz-calc(100vh - 78px); /* firefox */ 
+  position: relative;
+  text-align: center;
+}
+
+.hero-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; /* stop the text from wrapping */
+  overflow: hidden; /* stop the text from wrapping */
 }
 
 .para {
