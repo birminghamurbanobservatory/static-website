@@ -60,7 +60,7 @@ const Footer = () => {
         </p>
         
         <a href="https://www.birmingham.ac.uk" className="m-2">
-          <Img fixed={data.uobLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
+          <Img fixed={data.uobLogo.childImageSharp.fixed} className="h-16" alt="UoB Logo"/>
         </a>
 
         <a href="https://epsrc.ukri.org/" className="m-2">
@@ -68,7 +68,7 @@ const Footer = () => {
         </a>
 
         <a href="https://www.ukcric.com" className="m-2">
-          <Img fixed={data.ukcricLogo.childImageSharp.fixed} className="h-16" alt="EPSRC Logo"/>
+          <Img fixed={data.ukcricLogo.childImageSharp.fixed} className="h-16" alt="UKCRIC Logo"/>
         </a>
 
       </div>
