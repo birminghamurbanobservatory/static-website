@@ -32,13 +32,14 @@ const IndexPage = () => (
         <h1 className="text-center text-primary">What we're up to</h1>
         <p className="para">We're busy deploying sensors across the city to collect vital data. Here's a selection of the technology being deployed:</p>
         <ul className="list-disc flex flex-wrap my-4">
-          <li className="w-full lg:w-1/2">100 low-cost weather stations in schools and homes.</li>
+        <li className="w-full lg:w-1/2">100 low-cost weather stations in schools and homes.</li>
           <li className="w-full lg:w-1/2">25 high-quality reference weather stations.</li>
           <li className="w-full lg:w-1/2">A distributed acoustic sensing system providing a variety of underground measurements.</li>
           <li className="w-full lg:w-1/2">A high-resolution rainfall radar system.</li>
-          <li className="w-full lg:w-1/2">Over 20 air quality sensors.</li>
+          <li className="w-full lg:w-1/2">25 air quality sensors.</li>
+          <li className="w-full lg:w-1/2">20 gulley sensors.</li>
           <li className="w-full lg:w-1/2">5 rail moisture sensors.</li>
-          <li className="w-full lg:w-1/2">10 road temperature sensors.</li>
+          <li className="w-full lg:w-1/2">25 road temperature sensors.</li>
           <li className="w-full lg:w-1/2">A lightning detector.</li>
           <li className="w-full lg:w-1/2">Traffic counters.</li>
           <li className="w-full lg:w-1/2">Lux meters.</li>
