@@ -32,13 +32,14 @@ const IndexPage = () => (
         <h1 className="text-center text-primary">What we're up to</h1>
         <p className="para">We're busy deploying sensors across the city to collect vital data. Here's a selection of the technology being deployed:</p>
         <ul className="list-disc flex flex-wrap my-4">
-          <li className="w-full lg:w-1/2">100 low-cost weather stations in schools and homes.</li>
+        <li className="w-full lg:w-1/2">100 low-cost weather stations in schools and homes.</li>
           <li className="w-full lg:w-1/2">25 high-quality reference weather stations.</li>
           <li className="w-full lg:w-1/2">A distributed acoustic sensing system providing a variety of underground measurements.</li>
           <li className="w-full lg:w-1/2">A high-resolution rainfall radar system.</li>
-          <li className="w-full lg:w-1/2">Over 20 air quality sensors.</li>
+          <li className="w-full lg:w-1/2">25 air quality sensors.</li>
+          <li className="w-full lg:w-1/2">20 gulley sensors.</li>
           <li className="w-full lg:w-1/2">5 rail moisture sensors.</li>
-          <li className="w-full lg:w-1/2">10 road temperature sensors.</li>
+          <li className="w-full lg:w-1/2">25 road temperature sensors.</li>
           <li className="w-full lg:w-1/2">A lightning detector.</li>
           <li className="w-full lg:w-1/2">Traffic counters.</li>
           <li className="w-full lg:w-1/2">Lux meters.</li>
@@ -48,10 +49,12 @@ const IndexPage = () => (
       </section>    
 
       <section className="my-8">
-        <h1 className="text-center text-primary">What's in it for you</h1>
-        <p className="para">Much of the data collected will be made publically available via an interactive website. Keep an eye on our <Link to="/blog/" className="text-link">blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for updates on when this will go live! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
+        <h1 className="text-center text-primary">What's in it for you?</h1>
+        <p className="para">Much of the data collected is now publically available via our interactive <a href="https://data.birminghamurbanobservatory.com/map/platforms" className="text-link">map</a>. You can also see constantly updating <a href="https://live.birminghamurbanobservatory.com" className="text-link">live data</a> from our sensors all across Birmingham.
+        <p className="para"></p>
+         Make sure you keep an eye on our <Link to="/blog/" className="text-link">blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for all of our updates! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
         <p className="para">
-          Got a burning question about Birmingham that you think our sensors can help answer then please <Link to="/contact/" className="text-link">get in touch</Link> and we'll see if we can help.
+          Got a burning question about Birmingham that you think our sensors can help answer? Then please <Link to="/contact/" className="text-link">get in touch</Link> and we'll see if we can help.
         </p>
       </section>  
 
