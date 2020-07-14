@@ -50,9 +50,12 @@ const IndexPage = () => (
 
       <section className="my-8">
         <h1 className="text-center text-primary">What's in it for you?</h1>
-        <p className="para">Much of the data collected is now publically available via our interactive <a href="https://data.birminghamurbanobservatory.com/map/platforms" className="text-link">map</a>. You can also see constantly updating <a href="https://live.birminghamurbanobservatory.com" className="text-link">live data</a> from our sensors all across Birmingham.
-        <p className="para"></p>
-         Make sure you keep an eye on our <Link to="/blog/" className="text-link">blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for all of our updates! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.</p>
+        <p className="para">
+          Much of the data collected is now publically available via our interactive <a href="https://data.birminghamurbanobservatory.com/map/platforms" className="text-link">map</a>. You can also see constantly updating <a href="https://live.birminghamurbanobservatory.com" className="text-link">live data</a> from our sensors all across Birmingham.
+        </p>
+        <p className="para">
+          Make sure you keep an eye on our <Link to="/blog/" className="text-link">blog</Link> or <a href="https://twitter.com/BhamUrbanObs" className="text-link">follow us</a> on Twitter for all of our updates! With sensors going out all over the city you may find there's infomation being collected within your neighbourhood.
+        </p>
         <p className="para">
           Got a burning question about Birmingham that you think our sensors can help answer? Then please <Link to="/contact/" className="text-link">get in touch</Link> and we'll see if we can help.
         </p>
