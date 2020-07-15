@@ -2,7 +2,7 @@
   "name": "static-website",
   "private": true,
   "description": "Static website for the Birmingham Urban Observatory",
-  "version": "1.10.4",
+  "version": "1.10.5",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
