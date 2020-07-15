@@ -32,6 +32,8 @@ The key reason then for measuring precipitation as a depth in millimetres is tha
 
 ![On a rainy day a rain gauge might register a precipitation depth of 10 mm. This is the equivalent of watering 1 square metre of your garden with this 10 litre watering can.](../images/precip-1mm-blog/louis-hansel-unsplash.jpg)
 
+For further context, the *precipitation depth* over a whole month in the Midlands in typically around 50-80 mm. So if the daily total is above 10 mm it's most likely been a soggy day.
+
 The reason we use the term *precipitation depth* rather than *rain depth* is that our rain gauges can also collect other forms of precipitation, e.g. snow and hail, which when they melt will also trigger the buckets to tip. The difficulty here is there will be a lag between when the precipitation fell and when it was registered, and from the readings alone it can be hard to distinguish between these different types. 
 
 
