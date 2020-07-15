@@ -5,7 +5,7 @@ title: "What is 1 mm of precipitation?"
 featuredImage: "../images/precip-1mm-blog/gabriele-diwald-unsplash.jpg"
 ---
 
-**The short answer**: The equivalent of 1 litre of rain falling over 1 square metre of ground.
+**The short answer**: The equivalent of 1 litre of rain falling over each square metre of ground.
 
 **The long answer**:
 
