@@ -97,7 +97,7 @@ h3 {
 }
 
 .blog-post-content p {
-  @apply my-2;
+  @apply my-4;
   @apply text-justify;
 }
 
