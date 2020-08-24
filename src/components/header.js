@@ -44,21 +44,21 @@ const Header = () => {
           </a>
 
           <Link
-            to="/about/"
+            to="/about"
             className="header-link md:inline-block md:mt-0 hover:bg-teal-900"
           >
             About Us
           </Link>
 
           <Link
-            to="/blog/"
+            to="/blog"
             className="header-link md:inline-block md:mt-0 hover:bg-teal-900"
           >
             Blog
           </Link>
 
           <Link
-            to="/contact/"
+            to="/contact"
             className="header-link md:inline-block md:mt-0 hover:bg-teal-900"
           >
             Contact

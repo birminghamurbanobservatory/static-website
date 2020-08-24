@@ -45,7 +45,7 @@ const Footer = () => {
 
         <p className="text-center m-2">
           <Link
-            to="/contact/"
+            to="/contact"
           >
             <FaEnvelope className="inline-block h-8 w-8 m-2" />
             Get in touch
@@ -73,7 +73,11 @@ const Footer = () => {
 
       </div>
 
-      <p className="text-center text-xs">v{packageJson.version}</p>
+      <div className="flex flex-wrap items-center justify-around mb-1">
+        <Link className="text-xs" to="/privacy">Privacy policy</Link>
+        <p className="text-xs">v{packageJson.version}</p>
+      </div>
+
     </footer>
 
   )
