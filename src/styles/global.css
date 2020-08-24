@@ -123,6 +123,11 @@ h3 {
   max-width: 100%;
 }
 
+.blog-post-content td,th {
+  @apply py-2;
+  @apply px-3;
+}
+
 
 .blog-post-content .gatsby-resp-image-wrapper {
   margin-bottom: 3px !important;
