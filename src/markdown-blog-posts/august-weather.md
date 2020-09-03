@@ -11,11 +11,11 @@ When looking at the temperatures from our Elms Cottage University of Birmingham 
 
 ![Average temperatures for Birmingham through August 2020](../images/august-weather/air-temp.png)
 
-As mentioned, the last week, including the Bank Holiday weekend (typical!) was unseasonably cool with maximum temperatures only reaching a peak of 17.24 °C.
+As mentioned, the last week, including the Bank Holiday weekend (typical!) was unseasonably cool with maximum temperatures only reaching a peak of 17.2 °C.
 
 During this colder streak the surface pressure charts show high pressure situated to the west of the UK with a cold northerly flow moving in, an indication of what brought those temperatures down.
 
-![Surface pressure chart for 30th August](../images/august-weather/SP-30-08-temp.JPG)
+![Surface pressure chart for 30th August](../images/august-weather/SP-30-08.JPG)
 
 We also had two named storms through August – Storm Ellen which passed over the UK on the 19-22nd August and then following this, Storm Francis 24th–26th August. Both of these brought widespread flooding and strong winds. 
 
@@ -23,9 +23,9 @@ We also had two named storms through August – Storm Ellen which passed over th
 
 ![Wind speeds for Birmingham through August 2020](../images/august-weather/wind-speed.png)
 
-For wind speeds we can see that the maximum speeds (in green) were particularly high across the 26th August with a max speed of 31.61 m/s (70.71mph). Even the average wind speeds (blue) during this period were particularly fast, with speeds of around 4-8 m/s (~9-18mph)
+For wind speeds we can see that the maximum speeds (in green) were particularly high across the 26th August with a max speed of 31.6 m/s (70.7 mph). Even the average wind speeds (blue) during this period were particularly fast, with speeds of around 4-8 m/s (~9-18 mph)
 
-As we had some technical issues with our campus rain gauge recently the precipitation values below are from the Moseley School site. Looking at precipitation depth we can see that we had plenty of rain across Birmingham through the month, particularly towards the latter half as those named storms hit the UK. A total of 117.81mm was recorded, well above average for August, with ~66mm usually expected in Birmingham. 
+As we had some technical issues with our campus rain gauge recently the precipitation values below are from the Moseley School site. Looking at precipitation depth we can see that we had plenty of rain across Birmingham through the month, particularly towards the latter half as those named storms hit the UK. A total of 117.8 mm was recorded, well above average for August, with ~66 mm usually expected in Birmingham. 
 
 
 ![Precipitation values for Birmingham through August 2020](../images/august-weather/precip.png)
