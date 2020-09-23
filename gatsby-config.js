@@ -30,7 +30,8 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of the content container as this plugin uses this as the base for generating different widths of each image.
               maxWidth: 1200,
               // See here for more options: https://www.gatsbyjs.org/packages/gatsby-remark-images
-              showCaptions: true
+              showCaptions: true,
+              // You can set a wrapperStyle property here, although I've just ended up referencing the classes this package uses in global.css instead.
             }          
           }
         ]
