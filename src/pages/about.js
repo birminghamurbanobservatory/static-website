@@ -112,10 +112,10 @@ const AboutPage = (props) => {
           />
 
           <TeamMember 
-            name="Sophie Randall" 
-            fluidImg={props.data.sophieRandall.childImageSharp.fluid} 
+            name="Nicole Cowell" 
+            fluidImg={props.data.nicoleCowell.childImageSharp.fluid} 
             title="Research Technician"
-            projectRole="Sophie's role involves the planning, building and installation of weather stations all over the city of Birmingham."
+            projectRole="Nicole's role involves the planning, building and installation of sensing equipment all over the West Midlands, with a focus on low cost and commercial air quality measurements. "
             picSide="right"
           />
 
