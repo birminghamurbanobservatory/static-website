@@ -10,7 +10,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "deploy": "firebase deploy -m $npm_package_version",
+    "deploy": "cross-var firebase deploy -m $npm_package_version",
     "build:deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
