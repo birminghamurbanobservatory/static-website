@@ -69,7 +69,7 @@ const AboutPage = (props) => {
               
         <section className="mt-6">
           <h1 className="text-center text-primary">Low cost sensing</h1>
-          <p className="para">Birmingham Urban Observatory is deploying and hosting a growing number of indicative low cost sensors for air quality measurements. These sensors are identified by description on our interactive map. </p>
+          <p className="para">Birmingham Urban Observatory is deploying and hosting a growing number of indicative low cost sensors for air quality measurements. These sensors are identified by description on our interactive map. Whilst Zephyrs may undergo manufacturer calibration and corrections, data is not corrected beyond this. </p>
           <p className="para">WM-Air have freely available resources including <a href="https://wm-air.org.uk/low-cost-sensors-for-air-quality-monitoring/" className="text-link">low cost sensor guidance</a>. Zephyrs from Earthsense undergo manufacturer calibration and corrections. Details are available in this  <a href="https://www.earthsense.co.uk/colocation-comparison-studies" className="text-link">colocation study</a>. AltasensePM devices were developed in house using an IoT enabled Plantower PMS5003 sensor. Researchers at the University of Birmingham have recently published an <a href="https://www.frontiersin.org/articles/10.3389/fenvs.2021.798485/full" className="text-link">evaluation of the sensor performance </a>.</p> 
         </section>
 
