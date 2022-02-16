@@ -49,7 +49,7 @@ const IndexPage = () => (
       </section>    
 
       <section className="my-8">
-        <h1 className="text-center text-primary">What's in it for you?</h1>
+        <h1 className="text-center text-primary">What is in it for you?</h1>
         <p className="para">
           Much of the data collected is now publically available via our interactive <a href="https://data.birminghamurbanobservatory.com/map/platforms" className="text-link">map</a>. You can also see constantly updating <a href="https://live.birminghamurbanobservatory.com" className="text-link">live data</a> from our sensors all across Birmingham.
         </p>

@@ -14,7 +14,9 @@
 
 ## Develop
 
-Run ```gatsby develop``` in the root of project to start a hot-reloading development environment.
+npm install --no-optional
+
+Run ```gatsby develop``` or `npm run develop` in the root of project to start a hot-reloading development environment.
 
 Your site is now running at `http://localhost:8000`.
 
