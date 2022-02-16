@@ -159,7 +159,7 @@ export const pageQuery = graphql`
     jonSadler: file(relativePath: { eq: "team/JonSadler.jpg" }) {
       ...fluidImage
     }
-    sophieRandall: file(relativePath: { eq: "team/SophieRandall.png" }) {
+    nicoleCowell: file(relativePath: { eq: "team/NicoleCowell.png" }) {
       ...fluidImage
     }
   }
