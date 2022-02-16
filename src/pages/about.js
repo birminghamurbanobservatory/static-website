@@ -67,6 +67,16 @@ const AboutPage = (props) => {
           <p className="para">Newcastle, Sheffield and Bristol form the first wave of Observatories and are passing on their experiences to the second wave of Observatories, namely Birmingham, Manchester and Cranfield. This knowledge exchange forms part of the <a href="http://www.urbanobservatory.ac.uk/corona" className="text-link">CORONA project</a>. The CORONA project is funded by the <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R013411/1" className="text-link">Engineering and Physical Sciences Research Council</a>. The network of observatories forms one of the three strands of <a href="UKCRIC" className="text-link">UKCRIC</a>.</p> 
         </section>
               
+        <section className="mt-6">
+          <h1 className="text-center text-primary">Low cost sensing</h1>
+          <p className="para">Birmingham Urban Observatory is deploying and hosting a growing number of indicative low cost sensors for air quality measurements. These sensors are identified by description on our interactive map. </p>
+          <p className="para"></p>Below are some helpful links regarding low cost sensing and some of the equipment we use:</p>
+          <ul className="flex flex-wrap text-center text-lg">
+            <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://wm-air.org.uk/low-cost-sensors-for-air-quality-monitoring/" className="text-link">WM-Air low cost sensor guidance</a></li>
+            <li className="w-full md:w-1/2 lg:w-1/3 p-2"><a href="https://www.earthsense.co.uk/colocation-comparison-studies" className="text-link">Zephyr</a></li>
+          </ul>
+       </section>
+
 
         <section className="mt-6">
           <h1 className="text-center text-primary">Meet the Birmingham team</h1>
