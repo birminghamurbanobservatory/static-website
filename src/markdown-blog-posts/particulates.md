@@ -30,9 +30,6 @@ Particles can come from many different sources. Primary sources include sea salt
 
 Particles can have many health impacts. Whilst larger PM10 can irritate eyes, nose and throats, smaller particles have the ability to penetrate into the lungs and blood. People with existing conditions such as asthma are most likely to experience poor health due to particulates. Particulate pollution has also been linked to lung disease, heart conditions, low birth weight in babies, cognitive performance.
 
-![Installing our air quality sensors across the city](../images/particulates/sensor2.jpg)
-
-
 #What can you do to reduce your exposure?
 
 Our sensors are part of ongoing efforts to learn more about particulate matter across the West Midlands region. You can avoid busy traffic routes when walking to limit your exposure to particulates. You can also reduce your emissions of particulates by partaking in active travel and not burning solid fuels unnecessarily such a recreational wood burners. 
