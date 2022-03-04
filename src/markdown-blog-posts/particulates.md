@@ -11,14 +11,14 @@ featuredImage: "../images/particulates/sensor.jpg"
 
 On our data hub you’ll see a number of our indicative air quality sensors recording particulate matter concentrations- but what is particulate matter and why is it so important to monitor?
 
-![A map of our PM sensors across Birmingham showing concentrations from 16th February 2022](../images/particulate/pmmap.png)
+![A map of our PM sensors across Birmingham showing concentrations from 16th February 2022](../images/particulates/pmmap.png)
 
 #What is particulate matter?
 
 Particulate matter refers to suspended particles in that float in the air. These particles can be of varying sizes. Most of our monitors report PM1, PM2.5 and PM10. These refer to particles of diameter 1, 2.5 and 10 micrometers respectively. To put these sizes into perspective, a grain of sand is about 90 micrometers diameter and a single strand of hair is about 70micrometers, meaning that a PM2.5 particle is about 35 times smaller than a grain of sand!
 
 
-![Build up of particulate matter on a sampling filter](../images/particulate/filter.jpg)
+![Build up of particulate matter on a sampling filter](../images/particulates/filter.jpg)
 
 
 #Where does it come from?
@@ -30,7 +30,7 @@ Particles can come from many different sources. Primary sources include sea salt
 
 Particles can have many health impacts. Whilst larger PM10 can irritate eyes, nose and throats, smaller particles have the ability to penetrate into the lungs and blood. People with existing conditions such as asthma are most likely to experience poor health due to particulates. Particulate pollution has also been linked to lung disease, heart conditions, low birth weight in babies, cognitive performance.
 
-![Installing our air quality sensors across the city](../images/particulate/sensor2.jpg)
+![Installing our air quality sensors across the city](../images/particulates/sensor2.jpg)
 
 
 #What can you do to reduce your exposure?
