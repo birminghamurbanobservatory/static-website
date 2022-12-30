@@ -14,7 +14,7 @@
     "build:deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
-    "gatsby": "^2.15.19",
+    "gatsby": "^2.32.13",
     "gatsby-background-image": "^0.8.12",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-google-analytics": "^2.1.21",
